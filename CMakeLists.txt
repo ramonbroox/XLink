@@ -33,7 +33,7 @@ option(XLINK_BUILD_EXAMPLES "Build XLink examples" OFF)
 # Build tests
 option(XLINK_BUILD_TESTS "Build XLink tests" OFF)
 # Debug option
-set(XLINK_LIBUSB_LOCAL "" CACHE STRING "Path to local libub source to use instead of Hunter")
+set(XLINK_LIBUSB_LOCAL "../libusb" CACHE STRING "Path to local libub source to use instead of Hunter")
 # Debug option
 option(XLINK_LIBUSB_SYSTEM "Use system libusb library instead of Hunter" OFF)
 

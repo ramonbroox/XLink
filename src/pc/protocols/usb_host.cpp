@@ -5,7 +5,7 @@
 #ifdef XLINK_LIBUSB_LOCAL
 #include <libusb.h>
 #else
-#include <libusb-1.0/libusb.h>
+#include <libusb.h>
 #endif
 
 #include "XLink/XLinkLog.h"
